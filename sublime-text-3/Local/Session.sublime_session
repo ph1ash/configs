@@ -1,0 +1,267 @@
+{
+	"folder_history":
+	[
+	],
+	"last_version": 3126,
+	"last_window_id": 1,
+	"log_indexing": false,
+	"settings":
+	{
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+				]
+			},
+			"buffers":
+			[
+				{
+					"contents": "setenv bootcmd 'echo CHIP ID: chip-${serial#} ;gpio set PB2; if test -n ${fel_booted} && test -n ${scriptaddr}; then echo (FEL boot); source ${scriptaddr}; fi; mtdparts; ubi part UBI; ubifsmount ubi0:rootfs; ubifsload $fdt_addr_r /boot/sun5i-r8-chip.dtb; ubifsload $kernel_addr_r /boot/vmlinuz-can; setenv bootargs $bootargs $kernelarg_video; bootz $kernel_addr_r - $fdt_addr_r'",
+					"settings":
+					{
+						"buffer_size": 378,
+						"line_ending": "Unix",
+						"name": "setenv bootcmd 'echo CHIP ID: chip-${serial#} ;gpi"
+					}
+				},
+				{
+					"contents": "Matt Dresser\n4815 Cardigan Lane, Iowa City, IA, 52245 \nE: m.dres344@gmail.com \nT: (515) 850-0043 \nL: https://www.linkedin.com/in/mdresser \n\nProfile:\nInnovative developer with 4+ years of experience in designing robust control systems by devising and integrating novel software and hardware solutions. Thrives in teams driven to craft and implement advanced software systems to solve challenging engineering problems. Aiming to build the next generation of embedded technology. \n\nWork Experience:\nSoftware Engineer – Rockwell Collins March 2016 – Present \n• Integrate Linux device drivers for use in simulators and advanced mobile radios \n• Reduced end-of-line RF hardware validation from 4 hours to 10 minutes by designing \nautomated Python scripts \n• Collaborated with R&D division to develop avionics-oriented augmented reality concepts with the Microsoft Hololens \n \nResearch and Development Engineer – Vermeer Corp. March 2015 – March 2016 \n• Managed remote vision and control system development projected to save over $1.06M/year \n• Developed and integrated embedded Linux C++ based, GPU optimized computer vision system that recognizes and identifies Personal Protective Equipment (PPE) \n• Designed CAN interface for analyzing machine statistics, issuing control commands based on visionsystem feedback as well as posting information to backend web server \n• Coordinated autonomous aerial mapping system in collaboration with ISU ECpE senior design \nstudents for use in virtual reality applications \n• Delegated by Vermeer’s executive team to engage in improving and implementing advanced \nmanufacturing techniques company wide \n \nEmbedded Software Engineer – Vermeer Corp. May 2012 – March 2015 \n• Developed software control system for biomass management machine valued at $10M/yr \n• Designed and integrated C based electro-hydraulic PID ground drive control algorithm \n• Facilitated coordination among executive team members and senior engineers to initiate \ncompany-wide adoption MATLAB and Simulink tools \n• Created Scilab joystick control models which reduced code rework time from 2 weeks to 1-2 \n\nEducation:\nB.S. Electrical Engineering August 2009 – December 2013 \nIowa State University \n\nTechnical Skills:\nMATLAB, Scilab, Eagle CAD, LTSpice, SVN, Git, Embedded Linux, Linux, SolidWorks, Android, Android Wear, IAR IDE \n\nDevelopment Languages:\nMost Experience: C, Python, Java, MATLAB, Wiring \nCompetent: C#, Bash, C++, HTML, CSS, PHP, JavaScript\n\nSpoken Languages:\nEnglish and conversational Mandarin Chinese \n",
+					"file": "/home/phlash/test.txt",
+					"file_size": 2539,
+					"file_write_time": 131275879781246004,
+					"settings":
+					{
+						"buffer_size": 2524,
+						"encoding": "UTF-8",
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "",
+			"build_system_choices":
+			[
+			],
+			"build_varint": "",
+			"command_palette":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"console":
+			{
+				"height": 0.0,
+				"history":
+				[
+				]
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+			],
+			"find":
+			{
+				"height": 34.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"  "
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					" "
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"selected": 1,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 378,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										280,
+										297
+									]
+								],
+								"settings":
+								{
+									"auto_name": "setenv bootcmd 'echo CHIP ID: chip-${serial#} ;gpi",
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 1,
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "/home/phlash/test.txt",
+							"semi_transient": false,
+							"settings":
+							{
+								"buffer_size": 2524,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										2406,
+										2406
+									]
+								],
+								"settings":
+								{
+									"syntax": "Packages/Text/Plain text.tmLanguage"
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"stack_index": 0,
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 23.0
+			},
+			"input":
+			{
+				"height": 0.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.find_results":
+			{
+				"height": 0.0
+			},
+			"pinned_build_system": "",
+			"position": "0,0,0,0,0,2880,18,3836,1059,3840,1080",
+			"project": "",
+			"replace":
+			{
+				"height": 62.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"select_symbol":
+			{
+				"height": 0.0,
+				"last_filter": "",
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"selected_group": 0,
+			"settings":
+			{
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 150.0,
+			"status_bar_visible": true,
+			"template_settings":
+			{
+			},
+			"window_id": 1,
+			"workspace_name": ""
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+		]
+	}
+}
