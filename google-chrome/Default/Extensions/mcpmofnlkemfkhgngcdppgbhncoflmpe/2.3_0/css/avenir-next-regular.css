@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "Avenir";
+  src: url("/fonts/avenir-next/AvenirNext-Regular.woff") format("woff"), url("/fonts/avenir-next/AvenirNext-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Avenir";
+  src: url("/fonts/avenir-next/AvenirNext-Italic.woff") format("woff") url("/fonts/avenir-next/AvenirNext-Italic.ttf") format("truetype");
+  font-weight: 400;
+  font-style: italic;
+}

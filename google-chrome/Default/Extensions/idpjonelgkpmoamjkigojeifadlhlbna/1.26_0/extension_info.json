@@ -1,0 +1,24 @@
+{
+    "kango_version": "1.3.1 ba4b80d08b67", 
+    "content_scripts": [
+        "scripts/yourepeat.js", 
+        "scripts/youtube.js"
+    ], 
+    "name": "YouRepeat", 
+    "creator": "YouRepeat", 
+    "description": "Adds a button under the YouTube player, giving the option to repeat videos and create GIFs.", 
+    "kango_package_id": "dev", 
+    "background_scripts": [
+        "main.js"
+    ], 
+    "homepage_url": "http://www.yourepeat.com/", 
+    "version": "1.26", 
+    "update_path_url": "https://www.yourepeat.com/resources/extension_update/", 
+    "update_url": "https://www.yourepeat.com/resources/extension_update/update_chrome.xml", 
+    "id": "idpjonelgkpmoamjkigojeifadlhlbna", 
+    "browser_button": {
+        "caption": "YouRepeat", 
+        "tooltipText": "Repeat this video or create a gif", 
+        "icon": "icons/yourepeat_16x16.png"
+    }
+}

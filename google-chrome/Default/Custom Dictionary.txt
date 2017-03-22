@@ -1,0 +1,2 @@
+rockwool
+checksum_v1 = 7fceac83a51a9669220f203006e15caf

@@ -1,0 +1,32 @@
+2017/03/21-22:45:34.135 31635 Reusing MANIFEST /home/ph1ash/.config/google-chrome/Default/Session Storage/MANIFEST-000001
+2017/03/21-22:48:08.594 842 Level-0 table #5: started
+2017/03/21-22:48:08.602 842 Level-0 table #5: 76317 bytes OK
+2017/03/21-22:48:08.605 842 Delete type=0 #3
+2017/03/21-23:00:12.685 842 Level-0 table #7: started
+2017/03/21-23:00:12.696 842 Level-0 table #7: 84067 bytes OK
+2017/03/21-23:00:12.701 842 Delete type=0 #4
+2017/03/21-23:00:20.747 842 Level-0 table #9: started
+2017/03/21-23:00:20.755 842 Level-0 table #9: 109064 bytes OK
+2017/03/21-23:00:20.759 842 Delete type=0 #6
+2017/03/21-23:04:50.941 842 Level-0 table #11: started
+2017/03/21-23:04:50.952 842 Level-0 table #11: 80285 bytes OK
+2017/03/21-23:04:50.956 842 Delete type=0 #8
+2017/03/21-23:07:04.577 842 Level-0 table #13: started
+2017/03/21-23:07:04.583 842 Level-0 table #13: 68442 bytes OK
+2017/03/21-23:07:04.586 842 Delete type=0 #10
+2017/03/21-23:11:13.407 842 Level-0 table #15: started
+2017/03/21-23:11:13.413 842 Level-0 table #15: 139057 bytes OK
+2017/03/21-23:11:13.417 842 Delete type=0 #12
+2017/03/21-23:11:13.417 842 Expanding@0 1+1 (109064+84067 bytes) to 4+1 (396848+84067 bytes)
+2017/03/21-23:11:13.417 842 Compacting 4@0 + 1@1 files
+2017/03/21-23:11:13.435 842 Generated table #16@0: 280 keys, 399640 bytes
+2017/03/21-23:11:13.435 842 Compacted 4@0 + 1@1 files => 399640 bytes
+2017/03/21-23:11:13.438 842 compacted to: files[ 0 1 1 0 0 0 0 ]
+2017/03/21-23:11:13.438 842 Delete type=2 #9
+2017/03/21-23:11:13.438 842 Delete type=2 #13
+2017/03/21-23:11:13.438 842 Delete type=2 #15
+2017/03/21-23:11:13.438 842 Delete type=2 #7
+2017/03/21-23:11:13.438 842 Delete type=2 #11
+2017/03/21-23:12:07.864 842 Level-0 table #18: started
+2017/03/21-23:12:07.869 842 Level-0 table #18: 71213 bytes OK
+2017/03/21-23:12:07.873 842 Delete type=0 #14

@@ -1,0 +1,234 @@
+/*
+
+A place for common variables. Also includes Chart-specific variables (formerly in `_chartVars.less`), to by overriden by Press users in `_pressVars.less`.
+
+ */
+/* Spacing
+    ----------------------------------*/
+/* Text
+    ----------------------------------*/
+/* Color
+    ----------------------------------*/
+/* Buttons
+    ----------------------------------*/
+/* Box model
+    ----------------------------------*/
+/* Progress bars
+    ----------------------------------*/
+/* Dropdowns
+    ----------------------------------*/
+/* Inputs
+    ----------------------------------*/
+/* Panels
+    ----------------------------------*/
+/* Dialogs
+    ----------------------------------*/
+/*
+
+Prefixer
+
+All of the CSS3 fun, none of the prefixes!
+
+As a rule, you can use the CSS properties you
+would expect just by adding a '.':
+
+box-shadow => .box-shadow(@args)
+
+Also, when shorthand is available, arguments are
+not parameterized. Learn CSS, not LESS Prefixer.
+
+*/
+/* Transforms */
+/*
+
+# Progress Bars
+
+## Default
+
+Uses primary color (orange for Chart, green for Press).
+
+```
+<div class="progress">
+    <div class="progress-bar" style="width: 60%;"></div>
+</div>
+```
+
+The default and all variations also have a large option:
+
+```
+<div class="progress progress-lg">
+    <div class="progress-bar" style="width: 60%;"></div>
+</div>
+```
+
+ */
+.progress {
+  overflow: hidden;
+  height: 22px;
+  background-color: #d5d5d5;
+  border-radius: 11px;
+  -webkit-box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.2);
+  cursor: default;
+}
+.progress-lg {
+  border-radius: 22px;
+  height: 44px;
+}
+.progress-lg .progress-bar {
+  line-height: 44px;
+}
+.progress-bar {
+  float: left;
+  width: 0%;
+  height: 100%;
+  font-size: 11px;
+  line-height: 22px;
+  color: #ffffff;
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  background-color: #f78d1e;
+  -webkit-box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+  -webkit-transition: width 0.6s ease;
+  transition: width 0.6s ease;
+}
+/*
+
+## Variations
+
+Secondary:
+
+```
+<div class="progress">
+    <div class="progress-bar progress-bar-secondary" style="width: 60%;"></div>
+</div>
+```
+
+ */
+.progress-bar-secondary {
+  background-color: #29aae1;
+}
+/*
+
+Blue:
+
+```
+<div class="progress">
+    <div class="progress-bar progress-bar-blue" style="width: 60%;"></div>
+</div>
+```
+
+ */
+.progress-bar-blue {
+  background-color: #29aae1;
+}
+/*
+
+Green:
+
+```
+<div class="progress">
+    <div class="progress-bar progress-bar-green" style="width: 60%;"></div>
+</div>
+```
+
+ */
+.progress-bar-green {
+  background-color: #8cbf3f;
+}
+/*
+
+Orange:
+
+```
+<div class="progress">
+    <div class="progress-bar progress-bar-orange" style="width: 60%;"></div>
+</div>
+```
+
+ */
+.progress-bar-orange {
+  background-color: #f78d1e;
+}
+/*
+
+Purple:
+
+```
+<div class="progress">
+    <div class="progress-bar progress-bar-purple" style="width: 60%;"></div>
+</div>
+```
+
+ */
+.progress-bar-purple {
+  background-color: #a32385;
+}
+/*
+
+Pink:
+
+```
+<div class="progress">
+    <div class="progress-bar progress-bar-pink" style="width: 60%;"></div>
+</div>
+```
+
+ */
+.progress-bar-pink {
+  background-color: #ea0e8b;
+}
+/*
+
+Gray:
+
+```
+<div class="progress">
+    <div class="progress-bar progress-bar-gray" style="width: 60%;"></div>
+</div>
+```
+
+ */
+.progress-bar-gray {
+  background-color: #777777;
+}
+/*
+
+## Indeterminate
+
+Indeterminate progress bars are used when the actual time to completion is unknown.
+
+```
+<div class="progress-bar-indeterminate"></div>
+```
+
+ */
+.progress-bar-indeterminate {
+  display: inline-block;
+  width: 100%;
+  height: 14px;
+  border-radius: 14px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+  background-image: linear-gradient(-45deg, #d4eef8, #d4eef8 25%, #80ccec 25%, #80ccec 70%, #d4eef8 70%);
+  background-size: 38px 14px;
+  -webkit-animation: moving-stripes 0.5s linear infinite;
+  animation: moving-stripes 0.5s linear infinite;
+}
+@-webkit-keyframes moving-stripes {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 38px 0;
+  }
+}
+@keyframes moving-stripes {
+  0% {
+    background-position: 0 0;
+    width: 100%;
+  }
+  100% {
+    background-position: 38px 0;
+  }
+}

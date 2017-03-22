@@ -1,0 +1,18 @@
+{
+   "app": {
+      "launch": {
+         "container": "tab",
+         "web_url": "http://www.androidfreeware.net"
+      },
+      "urls": [ "http://www.androidfreeware.net/" ]
+   },
+   "description": "Download only quality and reviewed free android apps, games and software for the Google Android mobile phones",
+   "icons": {
+      "128": "af128.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDPj6XLAOTaPKPMwn8Om4Kosn9OPK1la2QcK0MaOTu7Akl+OhtvVELaOAwwdzmKZVlSDUNUZS9wadzWrBQRQtvUns9/l6tMeKIVg2ABmLMhnn5+cxdcSZpQGCpLApYCqe7r5l+u0TWrL8yEXFAsHuPjpw8w4fVo6muNsOXN4c0ZUQIDAQAB",
+   "name": "Android Freeware",
+   "permissions": [ "unlimitedStorage", "notifications" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.0"
+}

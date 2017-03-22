@@ -1,0 +1,8 @@
+.view_in_lucidchart div {
+    margin: 3px 0 0 6px;
+    width:17px;
+    height:17px;
+    background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAARVJREFUeNqsVIERgyAMRK8DOIIj2A3coI5AN+gIbtARdANG0E5AO4FuQDegoY1XToOi8He5gIHPG2MY2wGtdRYSpy5wMKV/MJ7bZGBC/yG9EsChQi+hpsvgayIufIipiwYlxjsqmLLjeKMfidjoo3ggBDWzUqlZnJ82SG/gctz2YA+jJkmSdjoD6yecO8Ny+qA9POu3OuGrbncbmYT2K4GrcHsBM/sWsl8PfwVLHdlSIcTqUC+uIEVVlLIXC4VDcReDmDvI8xjkZpiUYBW2WHCd14aPwllQxCYvrbIMmOQ+b0M8JzDOfcklUXvpSD6hjjE2BfVzpTvGowuZ57OF4pxStDEOGt86V9ZclvMuwXIpexp+BBgAoxBHPy0AWz0AAAAASUVORK5CYII=);
+    background-repeat: no-repeat;
+    background-size:cover;
+}

@@ -1,0 +1,19 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "http://www.fastchinese.org/flashcards?utm_medium=app&utm_source=chromeflashcards"
+      },
+      "urls": [ "http://www.fastchinese.org/flashcards?utm_medium=app&utm_source=chromeflashcards" ]
+   },
+   "description": "Mandarin Chinese flashcards that adapt to your learning speed.",
+   "icons": {
+      "128": "icon128.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDL7MAaSqG+e/ZD0w3YhcWW7P9jWlhnw/igpY3KNkMUP3YktAFCcFmNFvRQPI0iUG9lpnge8E6kexjW5oy7tk9AudHU2ogKCtKOUz7kKfZMyabzcnUPaxtPi58H/F3TVot318S7Z6OqZPvrPDtPvrpqEJqAJ+SFWa9e6TOjdsCbMwIDAQAB",
+   "manifest_version": 2,
+   "name": "Chinese Tutor Flashcards",
+   "permissions": [  ],
+   "short_name": "Flashcards",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "12"
+}

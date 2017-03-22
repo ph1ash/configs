@@ -1,0 +1,20 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "http://www.youtube.com/?feature=ytca"
+      },
+      "linked_icons": [  ]
+   },
+   "description": "The world's most popular online video community.",
+   "icons": {
+      "128": "icons/128.png",
+      "256": "icons/256.png",
+      "32": "icons/32.png",
+      "48": "icons/48.png",
+      "64": "icons/64.png",
+      "96": "icons/96.png"
+   },
+   "key": "j2lG9Vn5OzzE4VckinqIQMCAXzJvPoxEPJc5/nIjKyw=",
+   "name": "YouTube",
+   "version": "2017.3.22.10267"
+}

@@ -1,0 +1,48 @@
+{
+   "description": "Just a Chrome Theme created by @matvega",
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDcZHIT84yI1O2O1ThikISndubY92zVk4GsnT9JAsiDrjk3bzxf5KHKzqYHl5Iv9AIFENKOkTYuCR8pqk+B7vhXQ7qyZR93yPjsmHxumWtzZlYNHhPxvFeqMaMitUNK2jROGZCgguAN6jOq4wyWrx9PkGz2jWtvtkU0R1/0QxHhVwIDAQAB",
+   "name": "Black Wood",
+   "theme": {
+      "colors": {
+         "bookmark_text": [ 255, 255, 255 ],
+         "button_background": [ 255, 255, 255, 0 ],
+         "control_background": [ 43, 43, 43, 0 ],
+         "frame": [ 59, 59, 59 ],
+         "frame_inactive": [ 59, 59, 59 ],
+         "frame_incognito": [ 59, 59, 59 ],
+         "frame_incognito_inactive": [ 64, 64, 64 ],
+         "ntp_background": [ 66, 66, 66 ],
+         "ntp_header": [ 36, 36, 36 ],
+         "ntp_link": [ 255, 255, 255 ],
+         "ntp_section": [ 25, 25, 25 ],
+         "ntp_section_link": [ 255, 255, 255 ],
+         "ntp_section_text": [ 255, 255, 255 ],
+         "ntp_text": [ 255, 255, 255 ],
+         "tab_background_text": [ 87, 87, 87 ],
+         "tab_text": [ 255, 255, 255 ],
+         "toolbar": [ 23, 23, 23 ]
+      },
+      "images": {
+         "theme_frame": "images/theme_frame.png",
+         "theme_frame_overlay": "images/theme_frame_overlay.png",
+         "theme_ntp_background": "images/theme_ntp_background.png",
+         "theme_tab_background": "images/theme_tab_background.png",
+         "theme_toolbar": "images/theme_toolbar.png",
+         "theme_window_control_background": "images/theme_window_control_background.png"
+      },
+      "properties": {
+         "ntp_background_alignment": "bottom",
+         "ntp_background_repeat": "no-repeat"
+      },
+      "tints": {
+         "background_tab": [ 0, 0, 0.34117647058824 ],
+         "buttons": [ 0, 0, 1 ],
+         "frame": [ 0, 0, 0.30196078431373 ],
+         "frame_inactive": [ 0, 0, 0.34117647058824 ],
+         "frame_incognito": [ 0, 0, 0.34117647058824 ],
+         "frame_incognito_inactive": [ 0, 0, 0.34117647058824 ]
+      }
+   },
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1"
+}

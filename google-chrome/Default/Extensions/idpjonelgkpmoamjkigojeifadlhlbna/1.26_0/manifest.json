@@ -1,0 +1,30 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": "icons/yourepeat_16x16.png",
+      "default_title": "Repeat this video or create a gif"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "includes/content.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_start"
+   } ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+   "description": "Adds a button under the YouTube player, giving the option to repeat videos and create GIFs.",
+   "homepage_url": "http://www.yourepeat.com/",
+   "icons": {
+      "128": "icons/icon128.png",
+      "16": "icons/button.png",
+      "48": "icons/icon48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDUUcJfb7z6UawClxhjdoYGgvpkY8Yag0cimrSyMFf4E9kgSHtJ60TpDH1Fiwhz6r8JraX1QBY22tJOYvNVwcdc+FxYfCAnwTllSmokgaKWPG5J3Th0Zyv8Yl0Uu3VY8CXVBjyUUZpcGeiZKsgoQadkht42lY7JHpDpHHWEBCY2KwIDAQAB",
+   "manifest_version": 2,
+   "name": "YouRepeat",
+   "permissions": [ "tabs", "http://*/*", "https://*/*", "webNavigation" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.26",
+   "web_accessible_resources": [ "res/*" ]
+}

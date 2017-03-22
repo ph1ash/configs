@@ -1,0 +1,19 @@
+{
+   "app": {
+      "launch": {
+         "web_url": "http://www.dictionaryinstant.com/"
+      },
+      "urls": [ "http://www.dictionaryinstant.com/" ]
+   },
+   "description": "The world's fast and free online English dictionary. Search for word definition instantly!",
+   "icons": {
+      "128": "dictionaryinstant128.png",
+      "24": "dictionaryinstant24.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC2SqYkLinV0V9iVN8XmrZyDw4c3hYZO3wtPKcUvvLEMSbl2AdLzzhYu16Xgnqv2kt1eFRfrwNttEAGsmXNh2QSk81CLu19LXquRK+32Q+EXXCzs8cHjt6nDKh1U0x6RfdVcsrNtK0gRTNKlumpOJtwiRPwojFwu6f5dbM04Q1ORQIDAQAB",
+   "manifest_version": 2,
+   "name": "Dictionary Instant",
+   "permissions": [  ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2.1.0"
+}

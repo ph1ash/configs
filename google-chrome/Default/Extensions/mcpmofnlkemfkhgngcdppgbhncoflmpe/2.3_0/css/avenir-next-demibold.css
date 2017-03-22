@@ -1,0 +1,12 @@
+@font-face {
+  font-family: "Avenir";
+  src: url("/fonts/avenir-next/AvenirNext-DemiBold.woff") format("woff"), url("/fonts/avenir-next/AvenirNext-DemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Avenir";
+  src: url("/fonts/avenir-next/AvenirNext-DemiBoldItalic.woff") format("woff"), url("/fonts/avenir-next/AvenirNext-DemiBoldItalic.ttf") format("truetype");
+  font-weight: 600;
+  font-style: italic;
+}

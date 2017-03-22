@@ -1,0 +1,251 @@
+html, body {
+    margin: 0;
+    font-size: 16px;
+    height: 100%;
+}
+
+.flex-container {
+    display:flex;
+    height: 100%;
+    flex-direction: column;
+}
+header {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 5%;
+    background-color: #f78d1e;
+
+}
+header div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+header img {
+    height: 80%;
+}
+header a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-decoration: none;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 65%;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 30%;
+}
+footer a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+footer p {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 13%;
+    width: 100%;
+}
+
+.visio-row {
+    height: 87%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.visio-container {
+    position: relative;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    max-width: 730px;
+    max-height: 438px;
+    min-width: 730px;
+    min-height: 438px;
+}
+
+#laptop-img {
+    height: 100%;
+    width: 100%;
+}
+
+.visio-dropzone {
+    position: absolute;
+    height: 100%;
+    max-width: 76.4%;
+    max-height: 80.7%;
+    top: 7%;
+    left: 12%;
+}
+
+.circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+    position: absolute;
+    height: 47.70%;
+    width: 28.49%;
+    top: -10%;
+    left: 75%;
+
+    z-index: 100;
+    border-radius: 50%;
+    background-color: #55bbe7;
+    border: 2px solid #aaddf3;
+}
+
+.circle img {
+    padding-top: 7%;
+    width: 33%;
+    height: 33%;
+}
+
+.copy {
+    margin: 1% 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 70%;
+    width: 100%;
+}
+
+.sign-up {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    height: 30%;
+    width: 100%;
+}
+
+.ultralight-text { 
+    font-family: "Avenir"; 
+    font-size: 2.75rem; 
+    font-weight: 100;
+    color: #333333;
+    line-height: 2.75rem; 
+}
+
+.regular-text {
+    font-family: Avenir; 
+    font-size: 1rem; 
+    font-weight: 400;
+    color: #333333;
+    line-height: 1rem;
+}
+
+.strong-text {
+    font-family: Avenir; 
+    font-size: 1.5rem; 
+    font-weight: 700;
+    color: #333333;
+    line-height: 1.5rem; 
+}
+
+.popup-text {
+    font-family: Avenir; 
+    font-size: 0.875rem; 
+    font-weight: 500;
+    color: #ffffff;
+    width: 75%;
+    line-height: 0.875rem;
+}
+
+.signup-text {
+    font-family: Avenir; 
+    font-size: 1.375rem; 
+    font-weight: 500;
+    color: #ffffff; 
+}
+
+.choose-file-text {
+    font-family: Avenir; 
+    font-size: 1rem; 
+    font-weight: 500;
+    color: #ffffff; 
+}
+
+.blue-button {
+    text-align: center;
+    transition: all .15s ease;
+    border-radius: 2em;
+    background-color: #55bbe7;
+}
+
+.blue-button:hover {
+    background-color: #6bcff2;
+}
+
+.blue-button a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.no-decoration {
+    text-decoration: none;
+}
+
+#bottom-sign-up-button {
+    margin-bottom: 0%;
+    padding: 5px 15px;
+}
+
+.background-grey {
+    background-color: #f2f2f2;
+}
+
+@media (max-height: 901px) {
+  html, body {
+    font-size: 12px;
+  }
+
+  .visio-container {
+      max-width: 584px;
+      max-height: 351px;
+      min-width: 584px;
+      min-height: 351px;
+  }
+}
+
+@media (max-height: 721px) {
+  html, body {
+    font-size: 10px;
+  }
+
+  .visio-container {
+      max-width: 438px;
+      max-height: 263px;
+      min-width: 438px;
+      min-height: 263px;
+  }
+}
