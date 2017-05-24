@@ -2,7 +2,6 @@ dconf/
 gconf/
 autostart/
 git-prompt.sh
-google-chrome/
 gtk-2.0/
 gtk-3.0/
 kcalcrc
@@ -17,3 +16,5 @@ Skype
 transmission/
 Trolltech.conf
 vlc/
+google-chrome/
+gedit/
